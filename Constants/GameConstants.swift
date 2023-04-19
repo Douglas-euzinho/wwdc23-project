@@ -12,7 +12,7 @@ import AVFoundation
 /// Structure that define the attributes of player, the type and the name of the sound.
 struct GameSounds {
     static var player = AVAudioPlayer()
-    static let type = ".wav"
+    static let type = ".mp3"
     
     static let daySound = "daySound"
     static let nightSound = "nightSound"

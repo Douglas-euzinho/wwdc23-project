@@ -16,6 +16,5 @@ struct uiViewCall: UIViewControllerRepresentable {
         menu.modalPresentationStyle = .fullScreen
         return menu
     }
-    
     func updateUIViewController(_ uiViewController: GameMenu, context: Context) { }
 }
